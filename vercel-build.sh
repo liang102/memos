@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # 安装七牛云命令行工具
+yum -y install wget
 wget https://devtools.qiniu.com/qshell-linux-x64-v2.4.0.zip
 unzip qshell-linux-x64-v2.4.0.zip
 chmod +x qshell
